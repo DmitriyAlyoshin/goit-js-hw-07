@@ -8,8 +8,10 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
   background-color: #fafafa;
   color: #212121;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -21,4 +23,14 @@ input {
 button {
   padding: 8px 12px;
   cursor: pointer;
+}
+
+.body__list {
+  list-style: none;
+
+  text-transform: uppercase;
+}
+
+.body__list--item {
+  margin-bottom: 20px;
 }
