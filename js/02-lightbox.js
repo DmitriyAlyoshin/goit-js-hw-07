@@ -1,7 +1,7 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
-let galleryEl = document.querySelector(".gallery");
+let galleryElem = document.querySelector(".gallery");
 let galleryMarkup = galleryItems.map(renderGallery).join("");
 
 function renderGallery({ original, preview, description }) {
@@ -15,7 +15,7 @@ function renderGallery({ original, preview, description }) {
     </li>`;
 }
 
-galleryEl.insertAdjacentHTML("beforeend", galleryMarkup);
+galleryElem.insertAdjacentHTML("beforeend", galleryMarkup);
 
 new SimpleLightbox(".gallery a", {
     caption: true,
