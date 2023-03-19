@@ -42,3 +42,13 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+
+.body__list {
+  list-style: none;
+
+  text-transform: uppercase;
+}
+
+.body__list--item {
+  margin-bottom: 20px;
+}
