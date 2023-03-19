@@ -19,7 +19,8 @@ galleryElem.insertAdjacentHTML("beforeend", galleryMarkup);
 
 new SimpleLightbox(".gallery a", {
     caption: true,
-    captionPosition: "top",    
+    captionPosition: "outside",    
     captionsData: "alt",
-    captionDelay: 250,
+    captionDelay: 256,
+    disableScroll:	true,
 }) ;
